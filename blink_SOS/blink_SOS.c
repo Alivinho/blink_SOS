@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
+void blinkPonto(uint pino);
+void blinkTraco(uint pino);
 
 int main(){
-    stdio_init_all();
 
-    uint led_pin = 12;
+    uint led_pin = 13;
     gpio_init(led_pin);
     gpio_set_dir(led_pin, GPIO_OUT);
 
@@ -31,12 +32,11 @@ int main(){
         }
 
         sleep_ms(3000);
-
        
     }
 
     return 0; 
-   
+
 }
 
 void blinkPonto(uint pino){
