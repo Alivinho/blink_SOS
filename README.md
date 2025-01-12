@@ -1,6 +1,4 @@
-# blik_SOS
 # Código Morse com LED - SOS
-
 
 Este projeto implementa o controle de um LED para piscar em padrão Morse, transmitindo a mensagem SOS ("... --- ..."). O código foi desenvolvido como parte de uma tarefa do curso Capacitação EmbarcaTech, promovido pelo Cepedi de Ilhéus.
 
